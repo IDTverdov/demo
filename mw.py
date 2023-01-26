@@ -39,7 +39,7 @@ class MainWindowManager(object):
     def setupWindow(self):
         '''Настройка главного окна'''
         self.mainWindow.resize(1070, 760)
-        self.mainWindow.setWindowTitle("Lab.Docs")
+        self.mainWindow.setWindowTitle("myProject")
         menubar = QtWidgets.QMenuBar(self.mainWindow)
         menubar.setGeometry(QtCore.QRect(0, 0, 1070, 20))
         self.mainWindow.setMenuBar(menubar)
