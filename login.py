@@ -16,7 +16,7 @@ class Login(QtWidgets.QDialog):
         layout.addWidget(self.buttonLogin)
 
     def handleLogin(self):
-        if self.textPass.text() == '0000':    # Хы! Пароль!
+        if self.textPass.text() == '0000':    # Хы! Пароль! Сейчас уже пароль хранится в БД, сейчас он выствлен на показ для того, если Вы будете делать клон.
             self.accept()
         else:
             QtWidgets.QMessageBox.critical(
